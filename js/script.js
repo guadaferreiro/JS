@@ -2,7 +2,6 @@ let preguntas = prompt ("Hola ¿En qué te puedo ayudar? (Escriba uno de los sig
 
 
 while (preguntas) {
-
     switch (preguntas.toUpperCase ()) {
         case "TURNO ONLINE":
             const turnoOnline = prompt ("Turnos disponibles (Escribir turno) \n\nJueves 24 \n\nViernes 25");
@@ -11,7 +10,6 @@ while (preguntas) {
                 alert ("Horario disponible 17hs");
                 alert ("Turno reservado")
                 turnoOnline = ""
-
             } else if (turnoOnline === "Viernes 25"){
                 alert ("Horario disponible 16hs");
                 alert ("Turno reservado")
@@ -42,9 +40,6 @@ while (preguntas) {
             alert("Dato invalido")
             preguntas = prompt ("Hola. ¿En qué te puedo ayudar? (Escriba uno de los siguientes temas a continuación) \n\nTURNO ONLINE \n \nDIRECCIÓN \n \nTELEFONO Y HORARIOS \n \nOBRAS SOCIALES \n \nHABLAR CON UN OPERADOR");
     }
-
-
-
 }
 
 
